@@ -1,0 +1,25 @@
+<div class="task-form-container">
+  <h1>{{ isEdit ? 'Modificar Tarea' : 'Crear Tarea' }}</h1>
+
+  <form (ngSubmit)="saveTask()">
+    
+    <mat-form-field appearance="outline" class="form-field">
+      <mat-label>Título</mat-label>
+      <input matInput [(ngModel)]="task.title" name="title" placeholder="Escribe el título de la tarea" required />
+    </mat-form-field>
+
+
+    <mat-form-field appearance="outline" class="form-field">
+      <mat-label>Descripción</mat-label>
+      <textarea matInput [(ngModel)]="task.description" name="description" placeholder="Escribe una descripción detallada"></textarea>
+    </mat-form-field>
+
+
+    <div class="form-actions">
+      <button mat-raised-button color="primary" type="submit">
+        {{ isEdit ? 'Guardar Cambios' : 'Crear Tarea' }}
+      </button>
+      <button mat-button color="warn" (click)="closeDialog()" type="button">Cancelar</button>
+    </div>
+  </form>
+</div>

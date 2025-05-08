@@ -1,0 +1,37 @@
+div {
+  gap: 16px;
+}
+
+mat-card {
+  width: 100%;
+  box-sizing: border-box;
+  transition: background-color 0.3s, border-left 0.3s;
+}
+
+mat-card-footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.chip-set {
+  display: flex;
+  gap: 8px;
+}
+
+.completed-task {
+  background-color: #e8f5e9;
+  border-left: 5px solid #4caf50;
+}
+
+.pending-task {
+  background-color: #ffebee;
+  border-left: 5px solid #f50c0079;
+}
+
+.task-button-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+}

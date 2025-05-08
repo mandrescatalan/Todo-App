@@ -1,0 +1,34 @@
+{
+  "tasks": [
+    {
+      "id": "6",
+      "title": "Read Technical Book",
+      "description": "Read chapters 3 to 5 of the technical book on software architecture.",
+      "completed": true
+    },
+    {
+      "id": "7",
+      "title": "Fix Bug in Application",
+      "description": "Investigate and resolve the issue causing the application to crash on login.",
+      "completed": false
+    },
+    {
+      "id": "8",
+      "title": "Write Blog Post",
+      "description": "Draft and publish a blog post about recent trends in web development.",
+      "completed": true
+    },
+    {
+      "id": "9",
+      "title": "Conduct Code Review",
+      "description": "Review the code submitted by the team and provide constructive feedback.",
+      "completed": true
+    },
+    {
+      "id": "10",
+      "title": "Learn New Framework",
+      "description": "Explore and practice the basics of a new JavaScript framework.",
+      "completed": true
+    }
+  ]
+}

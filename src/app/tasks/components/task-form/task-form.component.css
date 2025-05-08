@@ -1,0 +1,16 @@
+.task-form-container {
+  padding: 16px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.form-field {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+}
